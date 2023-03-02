@@ -9,6 +9,7 @@ padding:20px;
 align-items:center;
 background-color:cornsilk;
 `;
+
 export const Title = styled.h2`
 display: block;
 font-style: italic;

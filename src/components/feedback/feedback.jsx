@@ -1,5 +1,5 @@
 import PropTypes, { arrayOf } from 'prop-types';
-import{Box,Button}from './feedback.styled'
+import { Box, Button } from './Feedback.styled';
 
 export function FeedbackOptions({ options, onLeaveFeedback }) {
   return (<Box>
@@ -8,6 +8,6 @@ export function FeedbackOptions({ options, onLeaveFeedback }) {
 };
 
 FeedbackOptions.ropTypes = {
-  options: arrayOf(PropTypes.string.isRequired,),
+  options: arrayOf(PropTypes.string.isRequired,).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 }

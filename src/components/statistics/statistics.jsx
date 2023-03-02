@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Box, Text } from './statistics.styled';
+import { Box, Text } from './Statistics.styled';
 
 export function Statistics({ good, neutral, bad, total, positivePercentage }) {
     return (<Box>
