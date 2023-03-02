@@ -13,8 +13,9 @@ export class App extends Component {
   
   onLeaveFeedback = (e) => {
     let stateItem = e.target.innerText;
-    console.log(stateItem);
-    this.setState((pevState) => { return ({ [stateItem]: pevState[stateItem] + 1 }) });
+    this.setState((pevState) => {
+      return ({ [stateItem]: pevState[stateItem] + 1 });
+    });
   };
 
   countTotalFeedback = () => {
